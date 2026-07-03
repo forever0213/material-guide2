@@ -1,136 +1,19 @@
 window.KTR_GUIDE_DATA = [
-  {
-    "name": "금속",
-    "iconImage": "icon/metal.png",
-    "children": [
-      {
-        "name": "성분",
-        "icon": "Fe",
-        "children": [
-          {
-            "name": "건식",
-            "icon": "✦",
-            "children": [
-              {
-                "name": "Spark-OES",
-                "icon": "⚙",
-                "type": "device",
-                "photo": "",
-                "desc": "고체 금속 시료의 원소 성분을 빠르고 정확하게 분석하는 장비입니다.",
-                "manager": "OOO",
-                "phone": "00-0000-0000",
-                "email": "",
-                "tests": [
-                  "철강",
-                  "비철",
-                  "주철"
-                ]
-              },
-              {
-                "name": "GD-OES",
-                "icon": "◎",
-                "type": "device",
-                "photo": "",
-                "desc": "깊이 방향 성분 분석이 가능한 장비입니다.",
-                "manager": "OOO",
-                "phone": "00-0000-0000",
-                "email": "",
-                "tests": [
-                  "도금층",
-                  "표면층",
-                  "깊이방향 분석"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "습식",
-            "icon": "💧",
-            "children": [
-              {
-                "name": "ICP-OES",
-                "icon": "🧪",
-                "type": "device",
-                "photo": "",
-                "desc": "용액화한 시료의 미량·주성분 원소를 정량 분석하는 장비입니다.",
-                "manager": "최영원",
-                "phone": "00-0000-0000",
-                "email": "",
-                "tests": [
-                  "금속 성분",
-                  "미량원소",
-                  "습식분석"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "물성",
-        "icon": "↕",
-        "children": []
-      },
-      {
-        "name": "표면",
-        "icon": "▤",
-        "children": []
-      },
-      {
-        "name": "부식",
-        "icon": "💧",
-        "children": []
-      },
-      {
-        "name": "금속조직",
-        "icon": "🔬",
-        "children": []
-      },
-      {
-        "name": "비파괴",
-        "icon": "〰",
-        "children": []
-      },
-      {
-        "name": "신뢰성·환경시험",
-        "icon": "🛡",
-        "children": []
-      },
-      {
-        "name": "파손·결함 분석",
-        "icon": "⌕",
-        "children": []
-      }
-    ]
-  },
-  {
-    "name": "페인트",
-    "icon": "🎨",
-    "children": []
-  },
-  {
-    "name": "고분자",
-    "icon": "✣",
-    "children": []
-  },
-  {
-    "name": "광물",
-    "icon": "◇",
-    "children": []
-  },
-  {
-    "name": "생분해",
-    "icon": "♧",
-    "children": []
-  },
-  {
-    "name": "이차전지",
-    "icon": "▯",
-    "children": []
-  },
-  {
-    "name": "고무",
-    "icon": "◉",
-    "children": []
-  }
-];
+{"name":"금속","iconImage":"icon/금속.png","children":[{"name":"성분","iconImage":"icon/성분.png","children":[{"name":"건식","iconImage":"icon/dry.png","children":[{"name":"Spark-OES","iconImage":"icon/spark_icon.png","type":"device","photo":"equipment/spark_oes.jpg","desc":"고체 금속 시료의 원소 성분을 빠르고 정확하게 분석하는 장비입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"3~5일","tests":["철강, 비철, 주철"]}
+,{"name":"GD-OES","iconImage":"icon/gdoes_icon.png","type":"device","photo":"equipment/gdoes.jpg","desc":"깊이 방향 성분 분석이 가능한 장비입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"ISO, ASTM","period":"5~7일","tests":["도금층, 표면층, 깊이방향 분석"]}
+]},{"name":"습식","iconImage":"icon/wet.png","children":[{"name":"ICP-OES","iconImage":"icon/icp_icon.png","type":"device","photo":"equipment/icp_oes.jpg","desc":"용액화한 시료의 미량·주성분 원소를 정량 분석하는 장비입니다.","manager":"OOO","phone":"00-0000-0000","email":"cyw0213@ktr.or.kr","standard":"KS D 1801","period":"10일","tests":["금속 성분, 미량원소, 습식분석"]}
+]}]},{"name":"물성","iconImage":"icon/물성.png","children":[{"name":"인장","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]},{"name":"경도","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]},{"name":"조직","iconImage":"icon/조직.png","children":[{"name":"조직","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"5~7일","tests":["금속 성분, 미량원소, 습식분석"]}
+]}]},{"name":"결함","iconImage":"icon/경함.png","children":[{"name":"고장원인분석","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]},{"name":"표면","iconImage":"icon/표면.png","children":[{"name":"SEM","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"5~7일","tests":["금속 성분, 미량원소, 습식분석"]}
+]},{"name":"염수분무","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"5~7일","tests":["금속 성분, 미량원소, 습식분석"]}
+]},{"name":"복합부식","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]},{"name":"신뢰성","iconImage":"icon/신뢰성.png","children":[{"name":"신뢰성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]},{"name":"비파괴","iconImage":"icon/비파괴.png","children":[{"name":"비파괴","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"5~7일","tests":["금속 성분, 미량원소, 습식분석"]}
+]}]}]},{"name":"고분자","iconImage":"icon/고분자.png","children":[{"name":"물성","iconImage":"icon/물성.png","children":[{"name":"물성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]}]},{"name":"광물","iconImage":"icon/광물.png","children":[{"name":"물성","iconImage":"icon/물성.png","children":[{"name":"물성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"5~7일","tests":["금속 성분, 미량원소, 습식분석"]}
+]}]}]},{"name":"생분해","iconImage":"icon/생분해.png","children":[{"name":"물성","iconImage":"icon/물성.png","children":[{"name":"물성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"KS, ASTM","period":"5~7일","tests":["금속 성분, 미량원소, 습식분석"]}
+]}]}]},{"name":"이차전지","iconImage":"icon/이차전지.png","children":[{"name":"물성","iconImage":"icon/물성.png","children":[{"name":"물성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]}]},{"name":"고무","iconImage":"icon/고무.png","children":[{"name":"물성","iconImage":"icon/물성.png","children":[{"name":"물성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}
+]}]}]},{"name":"페인트","iconImage":"icon/페인트.png","children":[{"name":"페인트","iconImage":"icon/페인트.png","children":[{"name":"물성","iconImage":"icon/paint_property.png","children":[{"name":"등록예정","iconImage":"icon/default_device.png","type":"device","photo":"equipment/","desc":"등록 예정입니다.","manager":"OOO","phone":"00-0000-0000","email":"","standard":"","period":"","tests":["페인트 시험"]}]}]}]}];
