@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KTR 미래소재기술본부 디지털 시험안내</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <button onclick="goBack()" id="backBtn" class="navBtn" style="visibility:hidden">←</button>
+    <div class="brand" onclick="showHome()">
+      <div class="logo">KTR</div>
+      <div class="org">미래소재기술본부 디지털 시험안내</div>
+    </div>
+    <button onclick="showHome()" class="navBtn">홈</button>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="bottom">
+    <button onclick="showHome()" class="navBtn">처음으로</button>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
