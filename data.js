@@ -1,7 +1,7 @@
 window.KTR_GUIDE_DATA = [
   {
     "name": "금속",
-    "icon": "icon/metal.png",
+    "iconImage": "icon/metal.png",
     "children": [
       {
         "name": "성분",
