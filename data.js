@@ -1,7 +1,7 @@
 window.KTR_GUIDE_DATA = [
   {
     "name": "금속",
-    "icon": "▰",
+    "icon": "metal.png",
     "children": [
       {
         "name": "성분",
@@ -53,7 +53,7 @@ window.KTR_GUIDE_DATA = [
                 "type": "device",
                 "photo": "",
                 "desc": "용액화한 시료의 미량·주성분 원소를 정량 분석하는 장비입니다.",
-                "manager": "OOO",
+                "manager": "최영원",
                 "phone": "00-0000-0000",
                 "email": "",
                 "tests": [
