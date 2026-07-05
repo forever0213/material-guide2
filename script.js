@@ -62,7 +62,7 @@ function showIntro(){
     <section class="intro">
       <div class="introCard">
         <div class="introLogo">KTR</div>
- 
+        <div class="introBadge">Digital Testing Guide</div>
         <h1>미래소재기술본부</h1>
         <p>디지털 시험안내</p>
         <div class="introText">
